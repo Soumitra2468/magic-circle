@@ -20,8 +20,8 @@ h4 {
 }
 
 .inner-container {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     position: absolute;
     display: flex;
     align-items: center;
@@ -31,8 +31,8 @@ h4 {
 }
 
 .inner {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     position: relative;
     /* border: 2px solid salmon; */
     border-radius: 50%;

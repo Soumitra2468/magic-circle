@@ -18,9 +18,9 @@ outer.addEventListener("click", (e) => {
     inner.style.backgroundColor = `${colors}`;
     console.log(offsetX - 100, offsetY - 100);
 
-    if ((offsetX - 100) > 0 && (offsetY - 100) > 0) {
-        bigdiv.style.left = `${offsetX - 100}px`;
-        bigdiv.style.top = `${offsetY - 100}px`;
+    if ((offsetX - 50) > 0 && (offsetY - 50) > 0) {
+        bigdiv.style.left = `${offsetX - 50}px`;
+        bigdiv.style.top = `${offsetY - 50}px`;
     }
 
 })
